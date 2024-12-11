@@ -2,6 +2,8 @@ package com.tka.OrganizationWorkflow.entity;
 
 
 
+import java.util.Date;
+
 import org.springframework.beans.factory.annotation.Autowired;
 
 import jakarta.persistence.Entity;
@@ -29,10 +31,10 @@ public class Employee {
 	private String emailid;
 	
 	private String createdBy;
-	private String createdDate;
+	private Date createdDate;
 	
 	private String updatedBy;
-	private String updatedDate;
+	private Date updatedDate;
 	
 	private String status;
 	private String department;

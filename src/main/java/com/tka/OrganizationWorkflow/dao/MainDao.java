@@ -305,7 +305,7 @@ public class MainDao {
 			
 			String q="from Employee";
 			Query<Employee> query=session.createQuery(q,Employee.class);
-			list=query.list();
+			list=query.getResultList();
 			
 			tx.commit();
 			
